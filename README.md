@@ -10,6 +10,6 @@ Download the working image from [Dockerhub](https://hub.docker.com/r/bloody160/b
 `docker run -it -p <Your desired Port>:19132/udp bloody160/bdsx:latest`
 
 ## Disable The Tests
-Go into the entrypoint.sh and uncomment the following lines by removing the '#':
-`#rm -f index.ts`
+Go into the entrypoint.sh and uncomment the following lines by removing the '#':\
+`#rm -f index.ts`\
 `#touch index.ts`
